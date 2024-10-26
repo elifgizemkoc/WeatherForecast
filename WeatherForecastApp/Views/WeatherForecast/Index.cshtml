@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "City Weather";
+}
+
+@model List<WeatherForecastApp.Dtos.CityWeatherForecastDto>
+@if (TempData["CityErrorMessage"] != null)
+{
+    <div class="alert alert-danger" id="msg">
+        <h5><b>@TempData["CityErrorMessage"]</b></h5>
+    </div>
+}
+<div id="container">
+    <h2>City Weather Forecast</h2>
+    <form method="post">
+        <div id="cityInputs">
+            <div class="city-input">
+                <input type="text" name="CityNames" class="form-control city-name" placeholder="Enter City...">
+            </div>
+        </div>
+        <button type="button" onclick="addCityInput()">Add city</button>
+        <button type="submit"> Send</button>
+    </form>
+</div>
+<br />
+<div>
+    @if (Model != null)
+    {
+        <h2>Weather Forecast</h2>
+        <table class="table table-bordered table-sm">
+            <thead class="thead-light">
+                <tr>
+                    <th>City Name</th>
+                    <th>TempC</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.CityName
+                        </td>
+                        <td>
+                            @item.TempC
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+        <a href="@Url.Action("ListFavoriteCity", "FavoriteCityWeather")" class="btn-link">Favorite Cities List</a>
+    </div>
+</div>
+<script>
+    setTimeout(function () { $('#msg').remove(); }, 2000);
+</script>
+<script>
+    function addCityInput() {
+        const cityInputsDiv = document.getElementById('cityInputs');
+        const newInputDiv = document.createElement('div');
+        newInputDiv.className = 'city-input';
+        newInputDiv.innerHTML = '<input type="text" name="CityNames" class="form-control city-name" placeholder="Enter City...">';
+        cityInputsDiv.appendChild(newInputDiv);
+    }
+</script>
+
+
+
+

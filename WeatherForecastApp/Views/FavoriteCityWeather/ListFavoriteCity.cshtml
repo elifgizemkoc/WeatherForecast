@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Favorite Cities";
+}
+
+@model WeatherForecastApp.Dtos.UserDetailDto
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" id="msg">
+        <h5><b>@TempData["SuccessMessage"]</b></h5>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" id="msg">
+        <h5><b>@TempData["ErrorMessage"]</b></h5>
+    </div>
+}
+@if (TempData["UserErrorMessage"] != null)
+{
+    <div class="alert alert-danger" id="msg">
+        <h5><b>@TempData["UserErrorMessage"]</b></h5>
+    </div>
+}
+@if (TempData["FavoriteCityErrorMessage"] != null)
+{
+    <div class="alert alert-danger" id="msg">
+        <h5><b>@TempData["FavoriteCityErrorMessage"]</b></h5>
+    </div>
+}
+@if (TempData["FavoriteCityTempErrorMessage"] != null)
+{
+    <div class="alert alert-danger" id="msg">
+        <h5><b>@TempData["FavoriteCityTempErrorMessage"]</b></h5>
+    </div>
+}
+
+<div>
+    <form method="post">
+        <h1>Get Favorite Cities</h1>
+        <div>
+            <input type="text" asp-for="Id" placeholder="Enter User Id..." />
+            <div class="has-validation">@Html.ValidationMessage("UserIdError")</div>
+        </div>
+        <div>
+            <button type="submit"> Get Favorite Cities </button>
+        </div>
+    </form>
+  
+</div>
+
+<br />
+
+<div>
+  
+    @if (Model != null)
+    {
+        <div id="extremes">
+            <h5>The coldest and the hottest city:</h5>
+            <h6>@Model.ColdestCityName.ToUpper(),@Model.HottiesCity.ToUpper() </h6>
+        </div>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Favorite City Id</th>
+                        <th>City Name</th>
+                        <th>TempC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.FavoriteCitiesDto)
+                    {
+                        <tr>
+                            <td>
+                                @item.FavoriteCityId
+                            </td>
+                            <td>
+                                @item.CityName
+                            </td>
+                            <td>
+                                @item.TempC
+                            </td>
+                            <td>
+                                <form asp-action="DeleteFavoriteCity" asp-controller="FavoriteCityWeather" method="post" asp-route-id="@item.FavoriteCityId">
+                                    <button>Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+    <a href="@Url.Action("AddFavoriteCity", "FavoriteCityWeather")" class="btn-link">Add new favorite city</a>
+</div>
+
+<script>
+    setTimeout(function () { $('#msg').remove(); }, 2000);
+</script>
+<style>
+    .alert {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        text-align: center;
+        z-index: 9999;
+    }
+</style>
+
+
+

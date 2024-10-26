@@ -1,0 +1,38 @@
+﻿<div>
+    @model WeatherForecastApp.Dtos.CreateFavoriteCityDto
+    <form method="post">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success" id="msg">
+                <h5><b>@TempData["SuccessMessage"]</b></h5>
+            </div>
+        }
+        <h1>Add Favorite City</h1>
+        <div>
+            <input type="text" asp-for="CityName" placeholder="Enter City Name..." />
+            <div class="has-validation">@Html.ValidationMessage("CityNameError")</div>
+        </div>
+        <div>
+            <input type="text" asp-for="UserId" placeholder="Enter User Id..." />
+            <div class="has-validation">@Html.ValidationMessage("UserIdError")</div>
+        </div>
+        <div>
+            <button type="submit">Create Favorite City</button>
+            <div class="has-validation">@Html.ValidationMessage("CityValid")</div>
+        </div>
+    </form>
+</div>
+<script>
+    setTimeout(function () { $('#msg').remove(); }, 2000);
+</script>
+<style>
+    .alert {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        text-align: center;
+        z-index: 9999;
+    }
+</style>

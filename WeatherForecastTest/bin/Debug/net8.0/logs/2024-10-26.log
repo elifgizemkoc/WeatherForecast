@@ -1,0 +1,10 @@
+2024-10-26 21:01:16.0410 WARN DeleteAsync: The city to be deleted was not found. ID: 2
+2024-10-26 21:01:16.1390 WARN GetAllAsync: The user was not found. ID: 2
+2024-10-26 21:01:16.8390 ERROR Error: ArgumentNullException in GetCacheValueAsync: Value cannot be null. (Parameter 'key')
+2024-10-26 21:01:16.8547 ERROR Error: ArgumentNullException in SetCacheValueAsync: Value cannot be null. (Parameter 'key')
+2024-10-26 21:01:16.8547 ERROR Error: ArgumentNullException in SetCacheValueAsync: Value cannot be null. (Parameter 'value')
+2024-10-26 21:37:00.2061 WARN DeleteAsync: The city to be deleted was not found. ID: 2
+2024-10-26 21:37:00.2706 WARN GetAllAsync: The user was not found. ID: 2
+2024-10-26 21:37:00.5460 ERROR Error: ArgumentNullException in GetCacheValueAsync: Value cannot be null. (Parameter 'key')
+2024-10-26 21:37:00.5575 ERROR Error: ArgumentNullException in SetCacheValueAsync: Value cannot be null. (Parameter 'key')
+2024-10-26 21:37:00.5575 ERROR Error: ArgumentNullException in SetCacheValueAsync: Value cannot be null. (Parameter 'value')

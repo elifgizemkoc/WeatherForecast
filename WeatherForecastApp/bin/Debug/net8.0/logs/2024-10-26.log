@@ -1,0 +1,8 @@
+2024-10-26 16:59:14.3527 ERROR Error in CreateAsync: Value cannot be null. (Parameter 'entity')
+2024-10-26 16:59:14.3527 ERROR Error in CreateAsync: Value cannot be null. (Parameter 'entity')
+2024-10-26 20:59:34.4765 ERROR Error in SetCacheValueAsync: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+2024-10-26 20:59:34.5887 ERROR Error in GetWeatherByCityName: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+2024-10-26 21:28:14.1277 ERROR Error in GetWeatherByCityName: Nullable object must have a value.
+2024-10-26 21:28:47.0834 ERROR Error in GetWeatherByCityName: Nullable object must have a value.
+2024-10-26 21:29:31.2281 ERROR Error in GetCityForecastDataFromApi: The request was canceled due to the configured HttpClient.Timeout of 5 seconds elapsing.
+2024-10-26 21:29:31.3437 ERROR Error in GetWeatherByCityName: The request was canceled due to the configured HttpClient.Timeout of 5 seconds elapsing.

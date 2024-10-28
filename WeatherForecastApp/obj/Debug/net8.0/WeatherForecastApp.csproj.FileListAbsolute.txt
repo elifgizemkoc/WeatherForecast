@@ -120,3 +120,4 @@ C:\Users\elifg\source\repos\WeatherForecast\WeatherForecastApp\obj\Debug\net8.0\
 C:\Users\elifg\source\repos\WeatherForecast\WeatherForecastApp\obj\Debug\net8.0\WeatherForecastApp.pdb
 C:\Users\elifg\source\repos\WeatherForecast\WeatherForecastApp\obj\Debug\net8.0\WeatherForecastApp.genruntimeconfig.cache
 C:\Users\elifg\source\repos\WeatherForecast\WeatherForecastApp\obj\Debug\net8.0\ref\WeatherForecastApp.dll
+C:\Users\elifg\source\repos\WeatherForecast\WeatherForecastApp\obj\Debug\net8.0\WeatherForecastApp.sourcelink.json

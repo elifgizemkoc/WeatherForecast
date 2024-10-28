@@ -12,7 +12,6 @@ namespace WeatherForecastApp.Services
         private readonly IRedisCacheService _redisCache;
         private readonly IWeatherForecastRepository _weatherRepository;
         private static readonly TimeSpan CacheExpiration = TimeSpan.FromMinutes(10);
-        private readonly TimeSpan _delay;
         private static Logger logger = LogManager.GetLogger("logRules");
         public WeatherForecastService(IRedisCacheService redisCacheService, IWeatherForecastRepository weatherRepository)
         {
@@ -35,11 +34,11 @@ namespace WeatherForecastApp.Services
 
                 //get data from db
                 var dbResult = await _weatherRepository.GetCityWeatherForecastByNameAsync(cityWeather);
-               
+
                 if (dbResult != null)
-                { 
+                {
                     //adding data to cache
-                    await _redisCache.SetCacheValueAsync(cacheKey, cityWeather.TempC, CacheExpiration);
+                    await _redisCache.SetCacheValueAsync(cacheKey, dbResult.TempC, CacheExpiration);
                     return dbResult;
                 }
 

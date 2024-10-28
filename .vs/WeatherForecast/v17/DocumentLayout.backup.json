@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|solutionrelative:weatherforecastapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\services\\cityweatherforecastrequestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|solutionrelative:weatherforecastapp\\services\\cityweatherforecastrequestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\services\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|solutionrelative:weatherforecastapp\\services\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\services\\cityweatherforecastrequestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|solutionrelative:weatherforecastapp\\services\\cityweatherforecastrequestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|solutionrelative:weatherforecastapp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|solutionrelative:weatherforecastapp\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D902FC-010F-4B05-B753-E73600476CA9}|WeatherForecastTest\\WeatherForecastTest.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecasttest\\cityweatherforecastrequestgrouptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D902FC-010F-4B05-B753-E73600476CA9}|WeatherForecastTest\\WeatherForecastTest.csproj|solutionrelative:weatherforecasttest\\cityweatherforecastrequestgrouptest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46D902FC-010F-4B05-B753-E73600476CA9}|WeatherForecastTest\\WeatherForecastTest.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecasttest\\rediscacheservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46D902FC-010F-4B05-B753-E73600476CA9}|WeatherForecastTest\\WeatherForecastTest.csproj|solutionrelative:weatherforecasttest\\rediscacheservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A19A71A1-A2E3-4D35-95C3-AC2039CDA15E}|WeatherForecastApp\\WeatherForecastApp.csproj|c:\\users\\elifg\\source\\repos\\weatherforecast\\weatherforecastapp\\interfaces\\icityweatherforecastrequestgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 557,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +46,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityWeatherForecastRequestGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
+              "RelativeDocumentMoniker": "WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
+              "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
+              "RelativeToolTip": "WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T05:20:14.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedisCacheServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastTest\\RedisCacheServiceTest.cs",
+              "RelativeDocumentMoniker": "WeatherForecastTest\\RedisCacheServiceTest.cs",
+              "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastTest\\RedisCacheServiceTest.cs",
+              "RelativeToolTip": "WeatherForecastTest\\RedisCacheServiceTest.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwDUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T05:06:52.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "WeatherForecastApp\\Services\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "WeatherForecastApp\\Services\\RedisCacheService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T05:05:11.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityWeatherForecastRequestGroupTest.cs",
+              "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastTest\\CityWeatherForecastRequestGroupTest.cs",
+              "RelativeDocumentMoniker": "WeatherForecastTest\\CityWeatherForecastRequestGroupTest.cs",
+              "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastTest\\CityWeatherForecastRequestGroupTest.cs",
+              "RelativeToolTip": "WeatherForecastTest\\CityWeatherForecastRequestGroupTest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T18:37:06.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ICityWeatherForecastRequestGroupService.cs",
               "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Interfaces\\ICityWeatherForecastRequestGroupService.cs",
               "RelativeDocumentMoniker": "WeatherForecastApp\\Interfaces\\ICityWeatherForecastRequestGroupService.cs",
@@ -42,21 +106,7 @@
               "RelativeToolTip": "WeatherForecastApp\\Interfaces\\ICityWeatherForecastRequestGroupService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T18:32:02.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CityWeatherForecastRequestGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
-              "RelativeDocumentMoniker": "WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
-              "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
-              "RelativeToolTip": "WeatherForecastApp\\Services\\CityWeatherForecastRequestGroupService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T18:26:18.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T18:32:02.484Z"
             },
             {
               "$type": "Document",
@@ -66,20 +116,20 @@
               "RelativeDocumentMoniker": "WeatherForecastApp\\Services\\WeatherForecastService.cs",
               "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Services\\WeatherForecastService.cs",
               "RelativeToolTip": "WeatherForecastApp\\Services\\WeatherForecastService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAlwDQAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T18:26:11.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WeatherForecastApp\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\elifg\\source\\repos\\WeatherForecast\\WeatherForecastApp\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "WeatherForecastApp\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T18:22:30.401Z",
               "EditorCaption": ""
